@@ -1,0 +1,28 @@
+.btn {
+  padding: 19px 37px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+  &:active {
+    transform: scale(0.97);
+  }
+}
+.btn[mode="p"] {
+  color: #fff;
+  border: 1px solid var(--p-gold-color);
+  background-color: var(--p-gold-color);
+}
+.btn[mode="s"] {
+  border: 2px solid var(--p-dark-color);
+  background-color: transparent;
+  color: var(--p-dark-color);
+}
+.btn[btn-size="sm"] {
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 500;
+}

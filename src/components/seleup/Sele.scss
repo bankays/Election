@@ -1,0 +1,32 @@
+.sele__container {
+  width: 1315px;
+  height: 417px;
+  border-radius: 20px;
+  background-image: url(../../images/notebuk.png);
+  margin: auto;
+}
+.sele__items {
+  width: 369px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 55%;
+  right: -830px;
+  transform: translateY(-50%);
+}
+.sele__title {
+  color: #2e8fc5;
+  font-size: 41px;
+  font-weight: 700;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+.sele__text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
